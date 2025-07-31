@@ -130,7 +130,7 @@ Run exact same payloads - they fail (are rejected) and are logged.
 - `showcase/` - Step-by-step walkthroughs
 - `tests/` - Automated attack and defense tests
 
-## 🎯 What Judges See
+## 🎯 What It help us see
 
 - Real-world CI/CD bot leveraging real automation
 - Attackers can pwn the system if one parameter is unchecked
